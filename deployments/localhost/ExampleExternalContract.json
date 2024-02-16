@@ -1,0 +1,76 @@
+{
+  "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "complete",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "completed",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x7f52ba0693a6edad206f2e44e5bb6ffd824e1dbbed1af5ab1eee68e24eda472a",
+  "receipt": {
+    "to": null,
+    "from": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "contractAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "transactionIndex": 0,
+    "gasUsed": "104805",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x5982c6282b5b312c2f8b52e70a5d1cd0c1961e8d85874092fd4fa989006504d0",
+    "transactionHash": "0x7f52ba0693a6edad206f2e44e5bb6ffd824e1dbbed1af5ab1eee68e24eda472a",
+    "logs": [],
+    "blockNumber": 1,
+    "cumulativeGasUsed": "104805",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "b67af978621205542d85162fcac7750a",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"complete\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"completed\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/ExampleExternalContract.sol\":\"ExampleExternalContract\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/ExampleExternalContract.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\npragma solidity ^0.8.20;  //Do not change the solidity version as it negativly impacts submission grading\\r\\n\\r\\ncontract ExampleExternalContract {\\r\\n\\r\\n  bool public completed;\\r\\n\\r\\n  function complete() public payable {\\r\\n    completed = true;\\r\\n  }\\r\\n\\r\\n}\\r\\n\",\"keccak256\":\"0xca8a1a74d117231b915962bfb03d811a9dc8802b679da68eec1a72966e08b4ea\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060ee8061001f6000396000f3fe60806040526004361060265760003560e01c8063522e117714602b5780639d9a7fe9146033575b600080fd5b60316059565b005b348015603e57600080fd5b5060456075565b60405160509190609f565b60405180910390f35b60016000806101000a81548160ff021916908315150217905550565b60008054906101000a900460ff1681565b60008115159050919050565b6099816086565b82525050565b600060208201905060b260008301846092565b9291505056fea26469706673582212201662de549ab63dfe924f9077d2829348a5f9cbbc868c4ededce56a2382d4d02f64736f6c63430008140033",
+  "deployedBytecode": "0x60806040526004361060265760003560e01c8063522e117714602b5780639d9a7fe9146033575b600080fd5b60316059565b005b348015603e57600080fd5b5060456075565b60405160509190609f565b60405180910390f35b60016000806101000a81548160ff021916908315150217905550565b60008054906101000a900460ff1681565b60008115159050919050565b6099816086565b82525050565b600060208201905060b260008301846092565b9291505056fea26469706673582212201662de549ab63dfe924f9077d2829348a5f9cbbc868c4ededce56a2382d4d02f64736f6c63430008140033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 1264,
+        "contract": "contracts/ExampleExternalContract.sol:ExampleExternalContract",
+        "label": "completed",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_bool"
+      }
+    ],
+    "types": {
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      }
+    }
+  }
+}
